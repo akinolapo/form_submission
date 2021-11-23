@@ -5,5 +5,5 @@ const propertyType = url.searchParams.get("prop")
 
 if (propertyType !== "Single family home") {
     document.getElementById("allowed").style.display="none"
-    document.getElementById("notallowed").style.display"block"
+    document.getElementById("notallowed").style.display="block"
 }
